@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'icons/apple-touch-icon.png'],
+      includeAssets: ['favicon.svg', 'icons/favicon-64.png', 'icons/apple-touch-icon.png'],
       manifest: {
         id: '/',
         name: 'Wartime Glory - Ranking Brasil',
